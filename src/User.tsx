@@ -1,7 +1,7 @@
 import { IconBrandGithub, IconBrandInstagram, IconBrandLeetcode, IconBrandLinkedin, IconBrandYoutube } from "@tabler/icons-react";
 const Info = {
     name: "Bittu Sharma",
-    stack: ["AI|ML Engineer", "MLOps Engineer", "DevOps Engineer"],
+    stack: ["AI|ML Engineer", "MLOps Engineer", "DevOps Engineer","Data"],
     bio: "I'm a passionate DevOps Engineer dedicated to designing and implementing efficient, scalable, and secure infrastructure solutions. With a focus on automation, monitoring, and optimization, I bridge the gap between development and operations to ensure seamless delivery of high-quality applications. Let's collaborate and create a robust, reliable, and high-performing system that exceeds expectations!"
 }
 
