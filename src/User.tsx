@@ -1,7 +1,7 @@
 import { IconBrandGithub, IconBrandInstagram, IconBrandLeetcode, IconBrandLinkedin, IconBrandYoutube } from "@tabler/icons-react";
 const Info = {
     name: "Bittu Sharma",
-    stack: ["DevOps Engineer", "MLOps Engineer", "AI|ML Engineer"],
+    stack: ["DevOps Engineer", "MLOps Engineer", "AI Engineer"],
     bio: "I'm a passionate DevOps Engineer dedicated to designing and implementing efficient, scalable, and secure infrastructure solutions. With a focus on automation, monitoring, and optimization, I bridge the gap between development and operations to ensure seamless delivery of high-quality applications. Let's collaborate and create a robust, reliable, and high-performing system that exceeds expectations!"
 }
 
@@ -47,18 +47,66 @@ const ProjectInfo = [
         github: "https://github.com/Code-Mars/Travel-Tracker"
     },
     
+    {
+        title: "Travel Tracker",
+        desc: "Travel Tracker is a full-stack web application that allows users to track their travel experiences and share them with others. The front end is built with React, Bootstrap, while the back end uses Node.js, Express, and PostgresSQL. Users can create an account, log in, add new trips, and view their past trips on a map. The app features a clean, modern design with interactive maps and a user-friendly interface. Travel Tracker combines functionality with style, making it easy and enjoyable to record and share travel memories.",
+        image: "Travel.png",
+        live: false,
+        technologies: ["React", "Node.js", "PostgresSQL", "Express", "Bootstrap"],
+        link: "https://github.com/Code-Mars/Travel-Tracker",
+        github: "https://github.com/Code-Mars/Travel-Tracker"
+    },
+    {
+        title: "Travel Tracker",
+        desc: "Travel Tracker is a full-stack web application that allows users to track their travel experiences and share them with others. The front end is built with React, Bootstrap, while the back end uses Node.js, Express, and PostgresSQL. Users can create an account, log in, add new trips, and view their past trips on a map. The app features a clean, modern design with interactive maps and a user-friendly interface. Travel Tracker combines functionality with style, making it easy and enjoyable to record and share travel memories.",
+        image: "Travel.png",
+        live: false,
+        technologies: ["React", "Node.js", "PostgresSQL", "Express", "Bootstrap"],
+        link: "https://github.com/Code-Mars/Travel-Tracker",
+        github: "https://github.com/Code-Mars/Travel-Tracker"
+    },
+    {
+        title: "Ekart E-comm App",
+        desc: "Ekart is a modern, fully responsive e-commerce platform built using React, TailwindCSS, Heroicons, and HeadlessUI, offering a seamless shopping experience across all devices. It features secure user authentication with login, registration, and logout functionalities. Users can add items to a wishlist or remove them, search for specific products, and add them to a shopping cart for purchase. The checkout process includes form validation for address and payment information, ensuring accuracy and security. After purchase, users can view their order history in the Orders section. Ekart combines robust functionality with a sleek, intuitive design, making online shopping effortless and enjoyable.",
+        image: "Ekart.png",
+        live: true,
+        technologies: ["React", "Tailwind", "Redux", "Heroicons", "HeadlessUI"],
+        link: "https://code-mars.github.io/Ekart/",
+        github: "https://github.com/Code-Mars/Ekart/"
+    },
+    {
+        title: "Facebook Clone",
+        desc: "Facebook Clone is a full-stack web application that replicates the core features of Facebook, including user authentication, posting, and commenting. The front end is built with React, TailwinCSS, Tabler-Icons, Mantine and Firebase, while the back end uses Firebase for user authentication and data storage. Users can create an account, log in, post updates, and comment on posts. The app features real-time updates, so users can see new comments as they are posted. Facebook Clone provides a seamless user experience with a clean, modern design and intuitive functionality.",
+        image: "Facebook.png",
+        live: false,
+        technologies: ["React", "Springboot", "MongoDB", "Tailwind", "Tabler-Icons", "Firebase"],
+        link: "https://github.com/Code-Mars/Facebook-Clone",
+        github: "https://github.com/Code-Mars/Facebook-Clone"
+    },
+
+    {
+        title: "Facebook Clone",
+        desc: "Facebook Clone is a full-stack web application that replicates the core features of Facebook, including user authentication, posting, and commenting. The front end is built with React, TailwinCSS, Tabler-Icons, Mantine and Firebase, while the back end uses Firebase for user authentication and data storage. Users can create an account, log in, post updates, and comment on posts. The app features real-time updates, so users can see new comments as they are posted. Facebook Clone provides a seamless user experience with a clean, modern design and intuitive functionality.",
+        image: "Facebook.png",
+        live: false,
+        technologies: ["React", "Springboot", "MongoDB", "Tailwind", "Tabler-Icons", "Firebase"],
+        link: "https://github.com/Code-Mars/Facebook-Clone",
+        github: "https://github.com/Code-Mars/Facebook-Clone"
+    },
+    
+
 ]
 
 
 const SkillInfo = [
     {
         title: "DevOps",
-        skills: ["Docker", "kubernetes","Jenkins", "GitLab", "Circle Ci", "Ansible", "Terraform", "AWS", "Linux", "SDLC"
+        skills: ["Docker", "kubernetes","Jenkins", "GitLab", "CircleCI  ", "Ansible", "Terraform", "AWS", "Linux", "SDLC"
         ]
     },
     {
         title: "MLOps",
-        skills: ["AWS Sagemaker", "kubeflow", "MLflow", "MySQL", "MongoDB", "Airflow", "DVC","Langcahin"]
+        skills: ["AWS Sagemaker", "kubeflow", "MLflow", "MySQL", "MongoDB", "Airflow", "DVC","LangChain"]
     },
     {
         title: "Backend Development",
