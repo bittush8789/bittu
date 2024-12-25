@@ -101,7 +101,7 @@ const ProjectInfo = [
 const SkillInfo = [
     {
         title: "DevOps",
-        skills: ["Docker", "kubernetes","Jenkins", "GitLab", "CircleCI  ", "Ansible", "Terraform", "AWS", "Linux", "SDLC"
+        skills: ["Docker", "kubernetes","Jenkins", "GitLab", "CircleCI", "Ansible", "Terraform", "AWS", "Linux","Prometheus","Grafana"
         ]
     },
     {
@@ -114,7 +114,7 @@ const SkillInfo = [
     },
     {
         title: "Tools",
-        skills: ["Git", "Github", "VS Code", "Postman", "MongoDB Compass", "Jupyter-notebook"]
+        skills: ["Git", "Splunk", "Jira", "Postman", "ChatGPT", "Copilot","Gemini"]
     }
 ]
 const socialLinks = [
